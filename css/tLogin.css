@@ -1,0 +1,162 @@
+#logo {
+    width: 21.4em;
+    height: auto;
+}
+
+header {
+    background-color: #192436;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items:baseline;
+    scroll-behavior: smooth;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+#menu{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 0px  25px 0px 25px;
+}
+
+#menu a:hover {
+    color: #192436;
+    background-color: aliceblue;
+    transition: 0.2s; 
+    border-radius: 70px;
+    padding: 5px 25px;
+    text-decoration: dashed;
+    text-shadow: 1px 1px 5px #192436;    
+}
+
+#back
+ {
+    background-image: url(../Media/back.jpg);
+    
+   }
+
+#head{
+    display: flex;
+    text-decoration: none;
+    justify-self: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 70px;
+    background-color: white;
+}
+
+#head a{
+    text-decoration: none;
+    color: red;
+    justify-content: space-between;
+    padding: 0px  25px 0px 25px;
+    border-radius: 70px;
+}
+
+#head a:hover {
+    color: white;
+    background-color: red;
+    transition: 0.2s; 
+}
+
+
+#thead{
+    display: block;
+    text-align: center;
+    padding: 50px 0px 20px 0px ;
+    font-size: 3em;
+    font-family:'Lucida Sans', Verdana, sans-serif ;    
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px black;
+}
+
+
+#box{
+    display: block;
+    text-align: center;
+}
+
+#num{
+    border: solid 5px gray;
+    border-radius: 40px;
+    padding: 5px 0px;
+    font-size: 1.4em;
+}
+
+#num:hover{
+    border: solid 5px darkcyan;
+}
+
+#num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+
+#pass{
+    border: solid 5px gray;
+    border-radius: 40px;
+    padding: 5px 0px;
+    font-size: 1.4em;
+    margin: 20px;
+}
+#pass:hover{
+    border: solid 5px darkcyan;
+}
+#num:focus{
+    outline: #ff0000;
+    border: solid 5px #ff0000;
+}
+#pass:focus{
+    outline: #ff0000;
+    border: solid 5px #ff0000;
+}
+
+
+#sub{
+    border: solid 5px green ;
+    background-color: rgb(255, 255, 255);
+    color: green;
+    padding: 5px 100px;
+    font-size: 1.5em;
+    border-radius: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10%;
+}
+
+#sub:hover{
+    background-color: green;
+    color: white;
+    border: solid white 5px;
+}
+
+
+
+#foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: last baseline;
+    background-color: #192436;
+    color: white;
+    border : 0px 1px 0px 0px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding-top: 10px;
+    justify-items: center;
+}
+
+#footicon{
+    width:250px;
+}

@@ -1,0 +1,92 @@
+#logo {
+    width: 21.4em;
+    height: auto;
+}
+
+header {
+    background-color: #192436;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items:baseline;
+    scroll-behavior: smooth;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+#menu{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 0px  25px 0px 25px;
+}
+
+#menu a:hover {
+    color: #192436;
+    background-color: aliceblue;
+    transition: 0.2s; 
+    border-radius: 70px;
+    padding: 5px 25px;
+    text-decoration: dashed;
+    text-shadow: 1px 1px 5px #192436;    
+}
+#back{
+    background-image: url(../Media/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+h2{
+        display: block;
+        text-align: center;
+        padding: 50px 0px 20px 0px ;
+        font-size: 3em;
+        font-family:'Lucida Sans', Verdana, sans-serif ;    
+        color: #192436;
+        font-weight: bold;
+        text-shadow: 2px 2px 20px black;
+
+}
+
+
+ table{
+    display: inline-block;
+    border: solid 3px black;
+    text-align: center;
+    margin: 20px 0px 15% 20%;
+    border-style: solid;
+}
+
+#headi {
+    background-color: gray;
+    color: white;
+}
+
+
+
+#foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: last baseline;
+    background-color: #192436;
+    color: white;
+    border : 0px 1px 0px 0px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding-top: 10px;
+    justify-items: center;
+}
+
+#footicon{
+    width:250px;
+}
