@@ -238,7 +238,9 @@ header {
     
        }
 
-    
+       #link:hover{
+        border: solid 1px  red;
+       }
     
     
 

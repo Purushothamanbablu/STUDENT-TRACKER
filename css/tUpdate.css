@@ -96,6 +96,9 @@ table{
     color: #192436;
 }
 
+
+
+
 #foot {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -113,6 +116,8 @@ table{
     width:250px;
 }
 
+
+
 .delete {
     background-color: white;
     color: red;
@@ -125,7 +130,12 @@ table{
     color: white;
 
   }
+
+
+
   @media screen and (max-width : 800px) {
+
+    
     #logo {
         width: 50%;
         height: auto;
@@ -186,6 +196,10 @@ table{
     table, th, td {
         padding: 0 !important;
     }
+
+
+
+
     #foot {
         font-size: 10px;
     }
