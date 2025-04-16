@@ -45,30 +45,25 @@ header {
     
    }
 
-#head{
-    display: flex;
-    text-decoration: none;
+   #link{
+    display: block;
+    text-align: center;
     justify-self: center;
-    margin-top: 20px;
-    border-style: solid;
-    border-color: red;
-    border-radius: 70px;
-    background-color: white;
-}
-
-#head a{
     text-decoration: none;
-    color: red;
-    justify-content: space-between;
-    padding: 0px  25px 0px 25px;
+    color: #ff0000;
+    background-color: white;
+    border: solid 5px ;
+    margin-top: 50px;
     border-radius: 70px;
-}
+    padding: 5px 100px;
+    font-size: 1.5em;
 
-#head a:hover {
-    color: white;
+   }
+
+   #link:hover{
+    color: #ffffff;
     background-color: red;
-    transition: 0.2s; 
-}
+   }
 
 
 #thead{
@@ -159,4 +154,107 @@ header {
 
 #footicon{
     width:250px;
+}
+
+
+
+@media screen and (max-width : 800px) {
+    
+
+    #logo {
+        width: 50%;
+        height: auto;
+     }
+
+     #menu{
+        display: flex;
+
+     }
+
+     #homelogo{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+     }
+
+    header{
+        padding: 2px;
+    }
+
+
+
+
+    #thead{
+        padding: 10px 0px 10px 0px ;
+        font-size: 1.5em;
+    }
+    #num:hover{
+        border: solid 2px darkcyan;
+    }
+#num:focus{
+    outline: #ff0000;
+    border: solid 2px #ff0000;
+}
+    
+    #num{
+        border: solid 2px gray;
+        border-radius: 40px;
+        padding: 2px 0px;
+        font-size: 0.8em;
+    }
+    #pass{
+        border: solid 2px gray;
+        border-radius: 40px;
+        padding: 2px 0px;
+        font-size: 0.8em;
+    }
+    #pass:hover{
+        border: solid 2px darkcyan;
+    }
+    #pass:focus{
+        outline: #ff0000;
+        border: solid 2px #ff0000;
+    }
+
+    #sub{
+        border: solid 2px green ;
+        padding: 2px 50px;
+        font-size: 0.9em;
+        border-radius: 40px;
+    }
+
+    #link{
+        display: block;
+        text-align: center;
+        justify-self: center;
+        text-decoration: none;
+        color: #ff0000;
+        background-color: white;
+        border: solid 1px ;
+        margin-top: 10px;
+        border-radius: 70px;
+        padding: 2px 10px;
+        font-size: 0.9em;
+    
+       }
+
+    
+    
+    
+
+    
+    
+    #sub:hover{
+        border: solid white 2px;
+    }
+    
+
+    #foot {
+        font-size: 10px;
+    }
+    
+    #footicon{
+        width:100px;
+    }
+
 }

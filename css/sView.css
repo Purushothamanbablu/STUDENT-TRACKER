@@ -90,3 +90,71 @@ h2{
 #footicon{
     width:250px;
 }
+
+
+@media screen and (max-width : 800px) {
+
+    
+    #logo {
+        width: 50%;
+        height: auto;
+     }
+
+     #menu{
+        display: flex;
+
+     }
+
+     #homelogo{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+     }
+
+    header{
+        width: auto;
+        padding: 2px;
+    }
+
+    h2{
+        padding: 10px 0px 10px 0px ;
+        font-size: 1.5em;
+    }
+
+    table{
+        border: solid 1px black;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 0.4em;
+    }
+    
+    #headi {
+        background-color: gray;
+        color: white;
+    }
+
+    #back{
+        background-image:none;
+        background-color: rgba(255, 255, 255, 0.679);
+    }
+    
+    th,tr,td{
+        padding: 1px;
+        margin: 0%;
+        border-spacing: 0;
+    }
+
+
+
+
+
+    #foot {
+        font-size: 10px;
+    }
+    
+    #footicon{
+        width:100px;
+    }
+
+}
